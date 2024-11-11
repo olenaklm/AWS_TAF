@@ -59,6 +59,13 @@
             <artifactId>auth</artifactId>
         </dependency>
 
+<!--    Start for Module EC2 -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>ec2</artifactId>
+        </dependency>
+<!--    End for Module EC2-->
+
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
