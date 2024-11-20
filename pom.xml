@@ -59,12 +59,19 @@
             <artifactId>auth</artifactId>
         </dependency>
 
-<!--    Start for Module EC2 -->
+        <!--    Start for Module EC2 -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>ec2</artifactId>
         </dependency>
-<!--    End for Module EC2-->
+        <!--    End for Module EC2-->
+
+        <!--    Start for Module VPC -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>ssm</artifactId>
+        </dependency>
+        <!--    End for Module EC2-->
 
         <dependency>
             <groupId>io.rest-assured</groupId>
