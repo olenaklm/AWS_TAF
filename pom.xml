@@ -71,7 +71,19 @@
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>ssm</artifactId>
         </dependency>
-        <!--    End for Module EC2-->
+        <!--    End for Module VPC-->
+
+        <!--    Start for Module S3 -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
+        </dependency>
+        <!--    End for Module S3-->
 
         <dependency>
             <groupId>io.rest-assured</groupId>
