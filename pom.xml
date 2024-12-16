@@ -163,6 +163,13 @@
         </dependency>
         <!--    End  for Module Serverless -->
 
+        <!--    Start for Module Monitoring Logging -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>cloudtrail</artifactId>
+        </dependency>
+        <!--    End for Module Monitoring Logging -->
+
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
